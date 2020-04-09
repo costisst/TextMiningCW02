@@ -26,7 +26,7 @@ tweets.df <- sapply(tweets.df,function(row) iconv(row, "latin1", "ASCII", sub=""
 # tweets.df = gsub("[ \t]{2,}", "", tweets.df)
 # tweets.df= gsub("^\\s+|\\s+$", "", tweets.df) 
 
-tweets.df = gsub("http[[:alnum:]]*",'', tweets.df)
+tweets.df = gsub('https\\S+\\s*', '', tweets.df) ## Remove URLs
 tweets.df = gsub('http\\S+\\s*', '', tweets.df) ## Remove URLs
 tweets.df = gsub('pic\\S+\\s*', '', tweets.df) ## Remove URLs
 tweets.df = gsub('www.\\S+\\s*', '', tweets.df) ## Remove URLs
