@@ -1,1 +1,4 @@
-# TextMiningCW02
+# To do
+
+Data cleaning
+- Remove duplicates
