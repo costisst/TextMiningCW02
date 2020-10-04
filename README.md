@@ -1,5 +1,4 @@
-# To do
-
-1. Create SMA for geolocation
-2. Improve data cleaning procedure
-3. Find ways to compare results
+Perform Sentiment Analysis for the following topics using R on Twitter:
+1. Public sentiment towards movie Parasite.
+2. Public sentiment towards movie Joker.
+3. Public sentiment towards actor Joaquin Phoenix.
